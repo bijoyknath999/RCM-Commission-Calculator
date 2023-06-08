@@ -1,0 +1,81 @@
+
+c
+java:S1192g"HDefine a constant instead of duplicating this literal "percent" 8 times.(¯‘òùÿÿÿÿ
+\
+java:S1192L"FDefine a constant instead of duplicating this literal "click" 4 times.(å©
+g	java:S117Ù"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãçÇ–
+D
+java:S1604´"(Make this anonymous inner class a lambda(Îôúæûÿÿÿÿ
+D
+java:S1604æ"(Make this anonymous inner class a lambda(èë¦Œşÿÿÿÿ
+?
+java:S1604í"(Make this anonymous inner class a lambda(¥£êì
+N
+java:S2589¾"7Remove this expression which always evaluates to "true"(ˆşûº
+s	java:S1164"YRename this field "ResultSelfText" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ìû÷Øûÿÿÿÿ
+q	java:S1164"WRename this field "ResultSelfPv" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ìû÷Øûÿÿÿÿ
+y	java:S1166"_Rename this field "ResultsRecyclerView2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë’ˆşÿÿÿÿ
+u	java:S116<"[Rename this field "FacebookBannerID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Äï¤æÿÿÿÿÿ
+j	java:S116="PRename this field "Click" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ì¥úÚÿÿÿÿÿ
+j	java:S116>"URename this field "MainLayout" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ±á½
+f	java:S116@"RRename this field "BackBtn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½ôà
+l	java:S116@"XRename this field "ScreenShotBtn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½ôà
+\
+java:S16594"ADeclare "rate" and all following declarations on a separate line.(Ìû÷Øûÿÿÿÿ
+<
+java:S16595"!Declare "net" on a separate line.(“¢ó‹ûÿÿÿÿ
+M
+java:S16596"2Declare "ResultsRecyclerView2" on a separate line.(Ë’ˆşÿÿÿÿ
+`
+java:S1659<"EDeclare "adStatus" and all following declarations on a separate line.(Äï¤æÿÿÿÿÿ
+A
+java:S1659="&Declare "countInt" on a separate line.(Ì¥úÚÿÿÿÿÿ
+@
+java:S1659@"+Declare "ScreenShotBtn" on a separate line.(½ôà
+k
+java:S1450@"VRemove the "BackBtn" field and declare it as a local variable in the relevant methods.(½ôà
+q
+java:S1450@"\Remove the "ScreenShotBtn" field and declare it as a local variable in the relevant methods.(½ôà
+{
+java:S1450<"`Remove the "interstitialAdmob" field and declare it as a local variable in the relevant methods.(Äï¤æÿÿÿÿÿ
+~
+java:S1450<"cRemove the "interstitialAdsCount" field and declare it as a local variable in the relevant methods.(Äï¤æÿÿÿÿÿ
+p
+java:S1450A"URemove the "userPv" field and declare it as a local variable in the relevant methods.(ÏµÓ“şÿÿÿÿ
+H
+java:S1602 ",Remove useless curly braces around statement(ÒÌâ–øÿÿÿÿ
+H
+java:S1602¤",Remove useless curly braces around statement(íûÿÿÿÿ
+
+java:S1186¶"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Èø©óùÿÿÿÿ
+?
+java:S1185Å"(Remove this method to simply inherit it.(’˜–²
+D
+java:S1185Ê"(Remove this method to simply inherit it.(èØ¢Ùûÿÿÿÿ
+D
+java:S1185Ï"(Remove this method to simply inherit it.(îŞ¦¶şÿÿÿÿ
+d
+java:S5361û"HReplace this call to "replaceAll()" by a call to the "replace()" method.(ëíöŞøÿÿÿÿ
+W	java:S125„"<This block of commented-out lines of code should be removed.(‘ûŒşÿÿÿÿ
+i
+java:S1871­"MThis branch's code block is the same as the block for the branch on line 296.(ÒÌâ–øÿÿÿÿ
+‰
+java:S3252Ò"mUse static access with "com.google.android.material.snackbar.BaseTransientBottomBar" for "LENGTH_INDEFINITE".(èù¤¬øÿÿÿÿ
+Q
+java:S1161ğ":Add the "@Override" annotation above this method signature(Ù«µ§
+E
+java:S1068<"*Remove this unused "adType" private field.(Äï¤æÿÿÿÿÿ
+O
+java:S1068<"4Remove this unused "FacebookBannerID" private field.(Äï¤æÿÿÿÿÿ
+P
+java:S1068<"5Remove this unused "interstitialAdmob" private field.(Äï¤æÿÿÿÿÿ
+S
+java:S1068<"8Remove this unused "interstitialFacebook" private field.(Äï¤æÿÿÿÿÿ
+J
+java:S1068<"/Remove this unused "nativeAdmob" private field.(Äï¤æÿÿÿÿÿ
+D
+java:S1068<")Remove this unused "catID" private field.(Äï¤æÿÿÿÿÿ
+G
+java:S1068<",Remove this unused "catTitle" private field.(Äï¤æÿÿÿÿÿ
+E
+java:S1068A"*Remove this unused "userPv" private field.(ÏµÓ“şÿÿÿÿ

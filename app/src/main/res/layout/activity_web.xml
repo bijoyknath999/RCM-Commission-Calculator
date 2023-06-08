@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@color/color1"
+    tools:context=".activities.WebActivity"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.appcompat.widget.Toolbar
+        android:background="@color/color2"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <ImageView
+                android:layout_height="30dp"
+                android:layout_width="30dp"
+                android:layout_gravity="center"
+                app:tint="@color/white"
+                android:src="@drawable/ic_back"
+                android:id="@+id/webview_toolbar_back"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/webview_toolbar_title"
+                android:textSize="14sp"
+                android:fontFamily="@font/lato_bold"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:layout_centerInParent="true"
+                android:textColor="@color/white"
+                android:textAlignment="center"/>
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <WebView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/webView"
+        android:scrollbars="none"/>
+
+</LinearLayout>

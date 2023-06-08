@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/store"
+        android:title="JayRCM Store"
+        android:icon="@drawable/ic_store"/>
+
+    <item
+        android:id="@+id/other_app"
+        android:title="Other Apps"
+        android:icon="@drawable/ic_other"/>
+
+    <item
+        android:id="@+id/feedback"
+        android:title="Feedback"
+        android:icon="@drawable/ic_feedback"/>
+
+    <item
+        android:id="@+id/rate_us"
+        android:title="Rate Us"
+        android:icon="@drawable/ic_rate"/>
+
+    <group
+        android:checkableBehavior="all">
+        <item android:title="">
+            <menu>
+                <item
+                    android:id="@+id/disclaimer"
+                    android:title="Disclaimer"
+                    android:icon="@drawable/ic_disclaimer"/>
+                <item
+                    android:id="@+id/privacy_policy"
+                    android:title="Privacy Policy"
+                    android:icon="@drawable/ic_privacy"/>
+                <item
+                    android:icon="@drawable/ic_terms_conditions"
+                    android:id="@+id/terms_conditions"
+                    android:title="Terms &amp; Conditions" />
+                <item
+                    android:id="@+id/contact_us"
+                    android:title="Contact Us"
+                    android:icon="@drawable/ic_mail"/>
+            </menu>
+        </item>
+    </group>
+</menu>
+      
+      

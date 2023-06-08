@@ -1,0 +1,60 @@
+
+]
+java:S1192İ"FDefine a constant instead of duplicating this literal "click" 3 times.(¶Á˜´
+l	java:S117º"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éÒØÑÿÿÿÿÿ
+g	java:S117Ï"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü½‘ˆ
+g	java:S117Ø"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãçÇ–
+C
+java:S1604X"(Make this anonymous inner class a lambda(¹×İıÿÿÿÿ
+D
+java:S1604æ"(Make this anonymous inner class a lambda(›²œÿÿÿÿÿ
+?
+java:S1604ó"(Make this anonymous inner class a lambda(«´ÿõ
+x
+java:S14886"]Immediately return this expression instead of assigning it to the temporary variable "value".(šÖÜßúÿÿÿÿ
+x
+java:S1488E"]Immediately return this expression instead of assigning it to the temporary variable "value".(ˆ“ñ÷úÿÿÿÿ
+v
+java:S1104,"[Make mInterstitialAd a static final constant or non-public and provide accessors if needed.(şØà¿ÿÿÿÿÿ
+q
+java:S1104-"[Make FInterstitialAd a static final constant or non-public and provide accessors if needed.(·ïãÑ
+m
+java:S1104."RMake failed a static final constant or non-public and provide accessors if needed.(“¿±øÿÿÿÿ
+o
+java:S1104/"YMake reviewManager a static final constant or non-public and provide accessors if needed.(âöñ¢
+l
+java:S11040"VMake reviewInfo a static final constant or non-public and provide accessors if needed.(šíòÀ
+p
+java:S11041"UMake isShowing a static final constant or non-public and provide accessors if needed.(¤°®ñûÿÿÿÿ
+P
+java:S1444,"5Make this "public static mInterstitialAd" field final(şØà¿ÿÿÿÿÿ
+K
+java:S1444-"5Make this "public static FInterstitialAd" field final(·ïãÑ
+G
+java:S1444.",Make this "public static failed" field final(“¿±øÿÿÿÿ
+I
+java:S1444/"3Make this "public static reviewManager" field final(âöñ¢
+F
+java:S14440"0Make this "public static reviewInfo" field final(šíòÀ
+J
+java:S14441"/Make this "public static isShowing" field final(¤°®ñûÿÿÿÿ
+p
+java:S3008-"ZRename this field "FInterstitialAd" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·ïãÑ
+U
+java:S1118*":Add a private constructor to hide the implicit public one.(ïÅ¼•ıÿÿÿÿ
+g
+java:S3776k"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(®¢Şx
+W
+java:S1126r"AReplace this if-then-else statement by a single return statement.(‹óß„
+W	java:S125"<This block of commented-out lines of code should be removed.(ÒÌâ–øÿÿÿÿ
+L
+java:S2209¾"5Change this instance-reference to a static reference.(ó“Òİ
+R	java:S125é"<This block of commented-out lines of code should be removed.(ŞşÂ¼
+D
+java:S1185ï"(Remove this method to simply inherit it.(èØ¢Ùûÿÿÿÿ
+W	java:S125ı"<This block of commented-out lines of code should be removed.(ïôãÛøÿÿÿÿ
+ƒ
+java:S3252Ñ"gUse static access with "com.google.android.material.snackbar.BaseTransientBottomBar" for "LENGTH_LONG".(¿‚Ğƒşÿÿÿÿ
+
+java:S1186õ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(²óÀÚÿÿÿÿÿ
+?	java:S108ù")Either remove or fill this block of code.(å¥‡

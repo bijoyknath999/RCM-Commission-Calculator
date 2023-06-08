@@ -1,0 +1,17 @@
+
+„
+java:S1488$"bImmediately return this expression instead of assigning it to the temporary variable "viewHolder".(µ·¼‘øÿÿÿÿ8üò‰í„1
+m
+java:S1104"PMake edit a static final constant or non-public and provide accessors if needed.(½­áô8üò‰í„1
+q
+java:S1104X"OMake txt a static final constant or non-public and provide accessors if needed.(áÓÀÉþÿÿÿÿ8üò‰í„1
+G
+java:S1444"*Make this "public static edit" field final(½­áô8üò‰í„1
+ž
+java:S1186."€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(á¬‡Ý8£ó‰í„1
+£
+java:S11869"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(×åó«øÿÿÿÿ8£ó‰í„1
+]	java:S1254"<This block of commented-out lines of code should be removed.(Àîå¦ûÿÿÿÿ8¶ÙÃí„1
+X	java:S125B"<This block of commented-out lines of code should be removed.(Šª»¡8ªÿÃí„1
+i
+java:S3252G"LUse static access with "android.content.Context" for "INPUT_METHOD_SERVICE".(êÑ×ã8¥ó‰í„1

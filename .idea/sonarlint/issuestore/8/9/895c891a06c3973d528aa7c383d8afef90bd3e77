@@ -1,0 +1,91 @@
+
+M
+java:S1066ğ"/Merge this if statement with the enclosing one.(Ï¸¼¹8»Ÿ¨ì„1
+‡
+java:S1319J"jThe type of "myListData" should be an interface such as "List" rather than the implementation "ArrayList".(ìÍ±8»Ÿ¨ì„1
+n	java:S117£"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãçÇ–8»Ÿ¨ì„1
+K
+java:S1604·"(Make this anonymous inner class a lambda(ÿØ²øÿÿÿÿ8»Ÿ¨ì„1
+F
+java:S1604Â"(Make this anonymous inner class a lambda(ÉË¢8¼Ÿ¨ì„1
+K
+java:S1604¡"(Make this anonymous inner class a lambda(Îôúæûÿÿÿÿ8¼Ÿ¨ì„1
+s
+java:S1104E"QMake hints a static final constant or non-public and provide accessors if needed.(á«´üÿÿÿÿ8¼Ÿ¨ì„1
+s
+java:S1104J"VMake myListData a static final constant or non-public and provide accessors if needed.(ìÍ±8¼Ÿ¨ì„1
+s
+java:S1104O"VMake MainLayout a static final constant or non-public and provide accessors if needed.(ìÒä·8¼Ÿ¨ì„1
+M
+java:S1444E"+Make this "public static hints" field final(á«´üÿÿÿÿ8¼Ÿ¨ì„1
+M
+java:S1444J"0Make this "public static myListData" field final(ìÍ±8¼Ÿ¨ì„1
+M
+java:S1444O"0Make this "public static MainLayout" field final(ìÒä·8¼Ÿ¨ì„1
+U
+java:S2589«"7Remove this expression which always evaluates to "true"(ˆşûº8†¡¨ì„1
+w	java:S116R"VRename this field "DrawerClick" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—ßêŞıÿÿÿÿ8†¡¨ì„1
+|	java:S116T"[Rename this field "FacebookBannerID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Äï¤æÿÿÿÿÿ8†¡¨ì„1
+r
+java:S3008O"URename this field "MainLayout" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìÒä·8†¡¨ì„1
+Ÿ
+java:S1186ş"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(˜ò²÷8Š¡¨ì„1
+Ÿ
+java:S1186‚"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÇßË‰8Š¡¨ì„1
+F
+java:S1659F"$Declare "delete" on a separate line.(…Ä²¼úÿÿÿÿ8Š¡¨ì„1
+g
+java:S1659T"EDeclare "adStatus" and all following declarations on a separate line.(Äï¤æÿÿÿÿÿ8Š¡¨ì„1
+|
+java:S1450R"ZRemove the "DrawerClick" field and declare it as a local variable in the relevant methods.(—ßêŞıÿÿÿÿ8‹¡¨ì„1
+y
+java:S1450T"WRemove the "adStatus" field and declare it as a local variable in the relevant methods.(Äï¤æÿÿÿÿÿ8‹¡¨ì„1
+?
+java:S2386E"Make this member "protected".(á«´üÿÿÿÿ8‹¡¨ì„1
+:
+java:S2386J"Make this member "protected".(ìÍ±8Œ¡¨ì„1
+X
+java:S2696g"6Make the enclosing method "static" or remove this set.(ü‰¥ˆùÿÿÿÿ8“¡¨ì„1
+]	java:S125q"<This block of commented-out lines of code should be removed.(¹£õ­üÿÿÿÿ8’ÛÁí„1
+^	java:S125¤"<This block of commented-out lines of code should be removed.(’†Ñıÿÿÿÿ8­‰Âí„1
+^	java:S125³"<This block of commented-out lines of code should be removed.(®óıÀùÿÿÿÿ8ƒëÀí„1
+\
+java:S1155Å">Use isEmpty() to check whether the collection is empty or not.(ÈñÖè8¡¡¨ì„1
+Y	java:S125Ó"<This block of commented-out lines of code should be removed.(±ºö±8îš¼í„1
+¤
+java:S1186£"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Èø©óùÿÿÿÿ8¢¡¨ì„1
+F
+java:S1185²"(Remove this method to simply inherit it.(’˜–²8¦¡¨ì„1
+K
+java:S1185·"(Remove this method to simply inherit it.(èØ¢Ùûÿÿÿÿ8§¡¨ì„1
+K
+java:S1185¼"(Remove this method to simply inherit it.(îŞ¦¶şÿÿÿÿ8§¡¨ì„1
+J
+java:S1602Ò",Remove useless curly braces around statement(ÄôÑ¢8©¡¨ì„1
+F	java:S108ò")Either remove or fill this block of code.(›Å›ñ8«¡¨ì„1
+
+java:S3252œ"mUse static access with "com.google.android.material.snackbar.BaseTransientBottomBar" for "LENGTH_INDEFINITE".(èù¤¬øÿÿÿÿ8®¡¨ì„1
+X
+java:S1161¹":Add the "@Override" annotation above this method signature(Ù«µ§8¯¡¨ì„1
+Y
+java:S1068D"<Remove this unused "REQUEST_WRITE_PERMISSION" private field.(Û˜óÍ8°¡¨ì„1
+Q
+java:S1068R"/Remove this unused "DrawerClick" private field.(—ßêŞıÿÿÿÿ8Ã‰Âí„1
+L
+java:S1068T"*Remove this unused "adType" private field.(Äï¤æÿÿÿÿÿ8°¡¨ì„1
+Z
+java:S1068T"8Remove this unused "interstitialAdsCount" private field.(Äï¤æÿÿÿÿÿ8°¡¨ì„1
+V
+java:S1068T"4Remove this unused "FacebookBannerID" private field.(Äï¤æÿÿÿÿÿ8°¡¨ì„1
+W
+java:S1068T"5Remove this unused "interstitialAdmob" private field.(Äï¤æÿÿÿÿÿ8°¡¨ì„1
+Z
+java:S1068T"8Remove this unused "interstitialFacebook" private field.(Äï¤æÿÿÿÿÿ8°¡¨ì„1
+Q
+java:S1068T"/Remove this unused "nativeAdmob" private field.(Äï¤æÿÿÿÿÿ8°¡¨ì„1
+K
+java:S1068T")Remove this unused "catID" private field.(Äï¤æÿÿÿÿÿ8°¡¨ì„1
+N
+java:S1068T",Remove this unused "catTitle" private field.(Äï¤æÿÿÿÿÿ8°¡¨ì„1
+B
+java:S1068U"%Remove this unused "i" private field.(ş×øß8áÔòì„1

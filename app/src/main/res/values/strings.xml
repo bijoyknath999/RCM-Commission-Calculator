@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Rcm Calculator</string>
+    <string name="admob_app_id">ca-app-pub-9976157034334780~9555421351</string>
+    <string name="admob_interstitial_id">ca-app-pub-9976157034334780/4139443148</string>
+    <string name="admob_banner_id">ca-app-pub-9976157034334780/5045211493</string>
+    <string name="admob_appopen_id">ca-app-pub-9976157034334780/9962099395</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="exit_note">Thank you for using Rcm Calculator app. Please support us by giving your feedback and ratting.</string>
+    <string name="open">Open Drawer</string>
+    <string name="close">Close Drawer</string>
+</resources>

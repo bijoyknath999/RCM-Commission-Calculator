@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".activities.ResultsActivity"
+    android:id="@+id/result_main_layout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        tools:context=".ResultsActivity">
+
+        <androidx.appcompat.widget.Toolbar
+            android:background="@color/color2"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <RelativeLayout
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+                <ImageView
+                    android:layout_height="30dp"
+                    android:layout_width="30dp"
+                    app:tint="@color/white"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_back"
+                    android:id="@+id/results_toolbar_back"/>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Total Performance Bonus"
+                    android:id="@+id/results_title"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/lato_bold"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp"
+                    android:layout_centerInParent="true"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"/>
+
+                <ImageView
+                    android:layout_height="20dp"
+                    android:layout_width="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    app:tint="@color/white"
+                    android:src="@drawable/camera"
+                    android:id="@+id/results_toolbar_screenshot"/>
+            </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/scren"
+                android:background="#ffffff"
+                android:paddingBottom="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:background="#DFDFDF"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:text="P.V."
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:text="Rate"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="match_parent"
+                        android:gravity="end"
+                        android:textStyle="bold"
+                        android:text="Performance Bonus"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/bv"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/lato"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/rate"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/lato"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+
+
+                    <TextView
+                        android:id="@+id/pb"
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/lato"
+                        android:textStyle="bold"
+                        android:gravity="end"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="#019ac1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:textStyle="bold"
+                        android:paddingTop="5dp"
+                        android:paddingStart="20dp"
+                        android:paddingEnd="20dp"
+                        android:gravity="center"
+                        android:text="Down Line Performance Bonus"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+                </FrameLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:listitem="@layout/recycler_item2"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    tools:itemCount="2"
+                    android:id="@+id/rv2" />
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="#019ac1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:textStyle="bold"
+                        android:paddingTop="5dp"
+                        android:paddingStart="20dp"
+                        android:paddingEnd="20dp"
+                        android:gravity="center"
+                        android:text="Total Incentive Break"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/results_self_pvtext"
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:text="Self pv incentive"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/lato"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/results_self_pv"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/lato"
+                        android:textStyle="bold"
+                        android:gravity="end"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:listitem="@layout/recycler_item2"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    tools:itemCount="2"
+                    android:id="@+id/result_recyclerview2" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    app:cardBackgroundColor="@color/black"
+                    android:layout_marginTop="20dp"
+                    android:elevation="2dp"
+                    app:cardCornerRadius="20dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:layout_marginTop="15dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="11"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/lato"
+                        android:textStyle="bold"
+                        android:gravity="end"
+                        android:text="Free Product's Benefits:"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="6"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/lato"
+                        android:textStyle="bold"
+                        android:text="include"
+                        android:gravity="end"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:layout_marginTop="15dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="11"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/lato"
+                        android:textStyle="bold"
+                        android:gravity="end"
+                        android:text="Point Incentive:"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="6"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/lato"
+                        android:textStyle="bold"
+                        android:text="coming soon"
+                        android:gravity="end"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/net"
+                    android:layout_marginBottom="5dp"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="11"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/lato"
+                        android:textStyle="bold"
+                        android:gravity="end"
+                        android:text="Net Performance Bonus :"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+
+
+                    <TextView
+                        android:id="@+id/total"
+                        android:layout_width="0dp"
+                        android:layout_weight="6"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/lato"
+                        android:textStyle="bold"
+                        android:text="0"
+                        android:gravity="end"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="15dp"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:id="@+id/tds"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="11"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/lato"
+                        android:textStyle="bold"
+                        android:gravity="end"
+                        android:text="Less T.D.S. :"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+
+
+                    <TextView
+                        android:id="@+id/total2"
+                        android:layout_width="0dp"
+                        android:layout_weight="6"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/lato"
+                        android:textStyle="bold"
+                        android:gravity="end"
+                        android:text="0"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#fe852e"
+                    android:layout_marginBottom="60dp"
+                    android:layout_marginTop="13dp"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="11"
+                            android:layout_height="60dp"
+                            android:text="Net Payable Amount :"
+                            android:textStyle="bold"
+                            android:paddingTop="5dp"
+                            android:paddingStart="20dp"
+                            android:paddingEnd="20dp"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/total1"
+                            android:layout_width="0dp"
+                            android:layout_weight="6"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/lato"
+                            android:textStyle="bold"
+                            android:paddingTop="5dp"
+                            android:paddingStart="20dp"
+                            android:paddingEnd="20dp"
+                            android:gravity="end|center"
+                            android:textColor="@color/white"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/adView"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center" />
+
+</FrameLayout>

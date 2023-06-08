@@ -1,0 +1,7 @@
+
+|
+java:S1104"ZMake UserPercentage a static final constant or non-public and provide accessors if needed.(çº–¶üÿÿÿÿ8ú¬Îí„1
+m	java:S116"QRename this field "UserPV" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø™îž8ü¬Îí„1
+z	java:S116"YRename this field "UserPercentage" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çº–¶üÿÿÿÿ8ü¬Îí„1
+ž
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Æ½±•8˜†Ïí„1

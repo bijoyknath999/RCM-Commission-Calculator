@@ -1,0 +1,72 @@
+{
+  "project_info": {
+    "project_number": "838048748835",
+    "firebase_url": "https://rcm-commission-calculator.firebaseio.com",
+    "project_id": "rcm-commission-calculator",
+    "storage_bucket": "rcm-commission-calculator.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:838048748835:android:0548c5f70f08d39da66896",
+        "android_client_info": {
+          "package_name": "com.rcm.calculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "838048748835-065qmqp6dp46ovnvb6ngse06idtggta7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rcm.calculator",
+            "certificate_hash": "d3f44c8dbfbb03bdaed108d5d1f638c708e69e7f"
+          }
+        },
+        {
+          "client_id": "838048748835-0uqe4h7bbpi2hvh7etd70v5taqd6claf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rcm.calculator",
+            "certificate_hash": "59d90b3c5a64cf4f3a2def39bef1764335ccf8d9"
+          }
+        },
+        {
+          "client_id": "838048748835-gtgb3hstsmgu0lmc1tq5vcdfc2jrl838.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rcm.calculator",
+            "certificate_hash": "fe095a41bd5f12cb805bc0618b255e94f5913b0e"
+          }
+        },
+        {
+          "client_id": "838048748835-kajur8rc20l2nlu4gm4inodjj15lquan.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rcm.calculator",
+            "certificate_hash": "f4bb4502433f0c71d75bba759d924959343b3a3c"
+          }
+        },
+        {
+          "client_id": "838048748835-nppg4o23vhlq6mdkdnvl9fp3lib56gtf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBG0k4E72CFq18H5kx_PSf_fRyxFdaxjAU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "838048748835-nppg4o23vhlq6mdkdnvl9fp3lib56gtf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
